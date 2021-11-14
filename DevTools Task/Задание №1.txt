@@ -1,0 +1,9 @@
+Список ссылок:
+Link 1 - link_page.php?param=c9af7b27114bb1fc83b1983163b2a6f6   - код ответа 301 Moved Permanently
+Link 2 - link_page.php?param=b9d68f6236472955add9ccd45e3056b7  - код ответа 302 Moved Temporarily
+Link 3- link_page.php?param=be74b7db4f5cc809b093ff82a3f3c657   - код ответа 200 OK
+Link 4 - link_page.php?param=12620d2db3fa2fdb2a29514d17dfb7e6  - код ответа 500  Internal Server Error
+Link 5 - link_page.php?param=4634b069a94ce1bc16843d0340a1dfcc  - код ответа 101 Switching Protocols
+Link 6 - link_page.php?param=91680c53853d451a9df1cce43f686f9b  - код ответа 401 Unauthorized
+Link 7 (0) - link_page.php?param=ea11307e3094d8863b333f633272c721  - код ответа 403 Forbidden
+Link 8 - link_page.php?param=2f9b43d29033b53238c2cf16e3e53094  - код ответа 502  Bad Gateway
