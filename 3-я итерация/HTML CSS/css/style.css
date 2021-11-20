@@ -1,0 +1,62 @@
+table, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.verticalText{
+	width:1em; 
+	line-height:1em; 
+	font-size:19px;
+}
+
+.timeTable{
+	width: 100px;
+	height: 80px;	
+}
+
+.alignCenter{
+ text-align: center; 
+}
+
+.alignTop{
+	text-align: top; 
+}
+
+.objectInfoCell{
+	width: 200;
+	height: 80px;
+}
+
+body{
+	width: 550px; 
+	height: 700px; 
+	margin: 0px auto; 	
+}
+
+hr{
+    border: none;  
+	background: black;
+    color: black; 
+    height: 2px; /* Толщина линии */
+}
+
+ul{
+	list-style-type: disc;
+}
+
+.list{
+	height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
