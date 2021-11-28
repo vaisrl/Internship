@@ -1,0 +1,30 @@
+37) WITH sh as (SELECT ship 
+FROM Classes, Outcomes
+WHERE classes.class = Outcomes.ship)
+SELECT ship
+FROM sh
+WHERE NOT EXISTS (SELECT class 
+FROM SHIPS 
+WHERE sh.ship = Ships.class)
+
+
+
+38)
+SELECT country
+FROM Classes 
+WHERE Classes.type IN ('bc','bb')
+GROUP BY country
+HAVING COUNT(Classes.type)=2
+
+
+39)
+SELECT temp.ship
+FROM (SELECT ship, date
+FROM Outcomes JOIN Battles 
+ON Battles.name = Outcomes.battle
+WHERE result = 'damaged') AS temp
+WHERE EXISTS(
+SELECT ship
+FROM Outcomes JOIN Battles 
+ON Battles.name = Outcomes.battle
+WHERE Battles.date > temp.date AND temp.ship = ship)
