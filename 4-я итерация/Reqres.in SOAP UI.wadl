@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="https://reqres.in"/>
+  <resources base="https://reqres.in">
+    <resource path="api/users" id="Create">
+      <doc xml:lang="en" title="Create"/>
+      <method name="POST" id="Create user">
+        <doc xml:lang="en" title="Create user"/>
+        <request>
+          <representation mediaType="application/json"/>
+        </request>
+        <response status="">
+          <representation mediaType="application/json"/>
+        </response>
+        <response status="201">
+          <representation mediaType="application/json; charset=utf-8"/>
+        </response>
+      </method>
+    </resource>
+    <resource path="api/users/2" id="Update">
+      <doc xml:lang="en" title="Update"/>
+      <method name="PATCH" id="Update user">
+        <doc xml:lang="en" title="Update user"/>
+        <request>
+          <representation mediaType="application/json"/>
+        </request>
+        <response status="">
+          <representation mediaType="application/json"/>
+        </response>
+        <response status="200 201">
+          <representation mediaType="application/json; charset=utf-8"/>
+        </response>
+      </method>
+    </resource>
+    <resource path="api/register" id="register">
+      <doc xml:lang="en" title="register"/>
+      <method name="POST" id="Method 1">
+        <doc xml:lang="en" title="Method 1"/>
+        <request>
+          <representation mediaType="application/json"/>
+        </request>
+        <response status="200">
+          <representation mediaType="application/json; charset=utf-8"/>
+        </response>
+        <response status="">
+          <representation mediaType="application/json"/>
+        </response>
+      </method>
+    </resource>
+    <resource path="api/login" id="login">
+      <doc xml:lang="en" title="login"/>
+      <method name="POST" id="Method 1">
+        <doc xml:lang="en" title="Method 1"/>
+        <request>
+          <representation mediaType="application/json"/>
+        </request>
+        <response status="">
+          <representation mediaType="application/json"/>
+        </response>
+        <response status="200">
+          <representation mediaType="application/json; charset=utf-8"/>
+        </response>
+      </method>
+    </resource>
+    <resource path="api/users" id="List of users">
+      <doc xml:lang="en" title="List of users"/>
+      <param name="page" default="2" type="xs:string" required="false" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+      <method name="GET" id="Method 1">
+        <doc xml:lang="en" title="Method 1"/>
+        <request/>
+        <response status="200">
+          <representation mediaType="application/json; charset=utf-8"/>
+        </response>
+      </method>
+    </resource>
+  </resources>
+</application>
