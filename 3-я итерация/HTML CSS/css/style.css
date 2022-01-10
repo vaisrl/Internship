@@ -35,9 +35,9 @@ body{
 
 hr{
     border: none;  
-	background: black;
+    background: black;
     color: black; 
-    height: 2px; /* Толщина линии */
+    height: 2px; 
 }
 
 ul{
